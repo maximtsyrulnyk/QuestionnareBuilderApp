@@ -1,1 +1,1 @@
-12345
+12345 "Each project must contain 'README.md' file In order to be able to add it to GIT repository"
