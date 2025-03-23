@@ -1,9 +1,22 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
+    "mysql2": "^3.14.0",
     "react": "^19.0.0"
   },
   "devDependencies": {
     "moment": "^2.30.1"
-  }
+  },
+  "name": "questionnairebuilderapp",
+  "description": "12345 \"Each project must contain 'README.md' file In order to be able to add it to GIT repository\"",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
