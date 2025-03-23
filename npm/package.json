@@ -1,0 +1,22 @@
+{
+  "name": "et-school",
+  "version": "0.0.1",
+  "description": "This is test project \"Questionnaire Builder App\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximtsyrulnyk/QuestionnareBuilderApp.git"
+  },
+  "keywords": [
+    "question"
+  ],
+  "author": "maximtsyrulnyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximtsyrulnyk/QuestionnareBuilderApp/issues"
+  },
+  "homepage": "https://github.com/maximtsyrulnyk/QuestionnareBuilderApp#readme"
+}
