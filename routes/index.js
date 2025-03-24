@@ -1,9 +1,13 @@
-const express = require("express");
-const router = express.Router();
-const hbs = require("hbs");
+const express = require('express')
+const router = express.Router()
+const hbs = require('hbs')
 
-router.get("/", function (req, res, next) {
-    res.render("template", {name: "Hello World"});
-});
+router.get('/', function (req, res, next) {
+  res.render('template', { name: 'Hello world!' })
+})
 
-module.exports = router;
+router.get('/test', function (req, res, next) {
+  res.render('test', { name: 'Test!' })
+})
+
+module.exports = router
