@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Create Quiz</h1>
+    <button id="backToCatalog">Back to Catalog</button>
+  </header>
+
+  <main>
+    <div class="quiz-info">
+      <input type="text" id="quizName" placeholder="Quiz name" required>
+      <textarea id="quizDescription" placeholder="Quiz description"></textarea>
+    </div>
+
+    <div class="questions-container" id="questionsContainer">
+      <!-- Questions will be added here -->
+    </div>
+
+    <button id="addQuestionBtn">Add Question</button>
+    <button id="saveQuizBtn">Save Quiz</button>
+  </main>
+
+  <script src="js/quizBuilder.js"></script>
+</body>
+</html>
